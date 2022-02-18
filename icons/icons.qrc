@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>close.png</file>
+        <file>console.png</file>
+        <file>icons.qrc</file>
+        <file>info.png</file>
+        <file>logo.png</file>
+        <file>../database/todo.db</file>
+        <file>Add.png</file>
+        <file>Apply.png</file>
+    </qresource>
+</RCC>
