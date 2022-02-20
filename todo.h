@@ -6,6 +6,9 @@
 #include <QtSql>
 #include <QFileInfo>
 #include <QDebug>
+#include <iostream>
+#include <cstdlib>
+#include "editar.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Todo; }
@@ -18,7 +21,7 @@ public:
     Todo(QWidget *parent = nullptr);
     QString home = getenv("HOME");
     void start();
-    QString dir = ":/../database/todo.db";
+    QString dir = ":/todo.db";
     QString user = home + "/.config/todo.db";
 
     QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
@@ -29,6 +32,10 @@ private slots:
     void on_actionSair_triggered();
 
     void on_actionInfo_triggered();
+
+    void on_btn_add_clicked();
+
+    void on_tableWidget_cellClicked(int row, int column);
 
 private:
     Ui::Todo *ui;

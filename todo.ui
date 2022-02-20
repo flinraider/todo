@@ -14,8 +14,8 @@
    <string>Todo</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="icons/icons.qrc">
-    <normaloff>:/logo.png</normaloff>:/logo.png</iconset>
+   <iconset>
+    <normaloff>../../../../../usr/share/pixmaps/todo-logo.png</normaloff>../../../../../usr/share/pixmaps/todo-logo.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout_2">
@@ -32,8 +32,8 @@
            <string> Adicionar</string>
           </property>
           <property name="icon">
-           <iconset resource="icons/icons.qrc">
-            <normaloff>:/Add.png</normaloff>:/Add.png</iconset>
+           <iconset>
+            <normaloff>../../../../../usr/share/pixmaps/todo-add.png</normaloff>../../../../../usr/share/pixmaps/todo-add.png</iconset>
           </property>
          </widget>
         </item>
@@ -86,8 +86,8 @@
   </widget>
   <action name="actionSair">
    <property name="icon">
-    <iconset resource="icons/icons.qrc">
-     <normaloff>:/close.png</normaloff>:/close.png</iconset>
+    <iconset>
+     <normaloff>../../../../../usr/share/pixmaps/todo-close.png</normaloff>../../../../../usr/share/pixmaps/todo-close.png</iconset>
    </property>
    <property name="text">
     <string>Sair</string>
@@ -98,17 +98,14 @@
   </action>
   <action name="actionInfo">
    <property name="icon">
-    <iconset resource="icons/icons.qrc">
-     <normaloff>:/info.png</normaloff>:/info.png</iconset>
+    <iconset>
+     <normaloff>../../../../../usr/share/pixmaps/todo-info.png</normaloff>../../../../../usr/share/pixmaps/todo-info.png</iconset>
    </property>
    <property name="text">
     <string>Info</string>
    </property>
   </action>
  </widget>
- <resources>
-  <include location="icons/icons.qrc"/>
-  <include location="icons/icons.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

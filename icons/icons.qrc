@@ -5,8 +5,8 @@
         <file>icons.qrc</file>
         <file>info.png</file>
         <file>logo.png</file>
-        <file>../database/todo.db</file>
         <file>Add.png</file>
         <file>Apply.png</file>
+        <file>todo.db</file>
     </qresource>
 </RCC>
